@@ -9,7 +9,7 @@ def init():
     print("Initialize")
     print("Prepare data model")
     global dataFrame
-    TT_DataModel = pd.read_csv("/Users/Johnson/tsengtunnel/data/HSI_closing.csv")
+    TT_DataModel = pd.read_csv("data/HSI_closing.csv")
     print("Data model ready")
 
 
