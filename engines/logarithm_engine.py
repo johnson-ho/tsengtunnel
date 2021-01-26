@@ -1,10 +1,9 @@
+import pandas as pd
+import numpy as np
+import dataModels
 
 def start():
     print("Log engine started")
-    #FileSource = open("/Users/Johnson/tsengtunnel/data/HSI_closing.csv","r")
-    #for entry in FileSource:
-    #    print(entry)
-        #TTModel.insert(x)
-    #FileSource.close()
-
+    dataModels.TT_DataModel.insert(3,"logarithm",np.log(dataModels.TT_DataModel["close_index"]))
+    print(dataModels.TT_DataModel.head())
     print("Log engine finished")

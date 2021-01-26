@@ -1,15 +1,16 @@
 from engines import std_dev_engine
 from engines import logarithm_engine
 from array import *
+import dataModels
 import pandas as pd
+import numpy as np
 
 TT_DataModel = ""
 
 def init():
     print("Initialize")
     print("Prepare data model")
-    global dataFrame
-    TT_DataModel = pd.read_csv("data/HSI_closing.csv")
+    dataModels.init_dataModel()
     print("Data model ready")
 
 
