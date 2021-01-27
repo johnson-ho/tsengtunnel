@@ -1,5 +1,6 @@
 from engines import std_dev_engine
 from engines import logarithm_engine
+from engines import slope_intercept_engine
 from array import *
 import dataModels
 import pandas as pd
@@ -18,7 +19,9 @@ def main():
     print ("Tseng Tunel Program Started")
     init()
     logarithm_engine.start()
+    print(dataModels.TT_DataModel.head())
     std_dev_engine.start()
+    slope_intercept_engine.start()
 
 #Core Step
 # 1. Trigger Standard Deviation Engine
