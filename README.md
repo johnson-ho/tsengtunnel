@@ -20,4 +20,4 @@ Please use pip to install below libraries into the environment before execution 
 
 #**Version history**
 
-Version 1 (Feb 1, 2021) - Support command line execution.  Visualize Tseung's tunnel by displaying regression line, logarithm, 95%, 75%, 25%, and 5% lines.  Statis data set in CSV format
+Version 1 (Feb 1, 2021) - Support command line execution.  Visualize Tseung's tunnel by displaying regression line, logarithm, 95%, 75%, 25%, and 5% lines.  Static data set in CSV format
