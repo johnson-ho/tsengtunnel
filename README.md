@@ -1,7 +1,7 @@
 #**Background**
 
 This GIT project is a practice to realize the theory of Tseng's Tunnel
-Tseng's Tunnel uses a liner regression apply on a security or a market index aiming to obtain the indication of emotion of investors at the current price.
+Tseng's Tunnel uses a liner regression apply on a security or a market index aiming to obtain the indication of emotion of investors at the current price by using Python
 
 #**Dependency**
 
