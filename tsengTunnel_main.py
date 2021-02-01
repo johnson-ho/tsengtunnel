@@ -5,7 +5,11 @@ from engines import regression_line_engine
 from engines import diff_regression_logarithm_engine
 from engines import std_dev_engine
 from engines import optimistic95_engine
-from array import *
+from engines import optimistic75_engine
+from engines import pessimistic25_engine
+from engines import pessimistic5_engine
+import matplotlib.pyplot as plt
+
 import dataModels
 import pandas as pd
 import numpy as np
@@ -28,6 +32,12 @@ def main():
     diff_regression_logarithm_engine.start()
     std_dev_engine.start()
     optimistic95_engine.start()
+    optimistic75_engine.start()
+    pessimistic25_engine.start()
+    pessimistic5_engine.start()
+    dataModels.TT_DataModel.plot(x="date", y=["logarithm","regression","95_optimistic","75_optimistic","25_pessimistic","5_pessimistic"])
+    plt.show()
+
 #Core Step
 # 1. Trigger Standard Deviation Engine
 main()
