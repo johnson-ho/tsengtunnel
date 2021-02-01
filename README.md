@@ -1,7 +1,8 @@
 #**Background**
 
 This GIT project is a practice to realize the theory of Tseng's Tunnel
-Tseng's Tunnel uses a liner regression apply on a security or a market index aiming to obtain the indication of emotion of investors at the current price by using Python
+
+Tseng's Tunnel uses a liner regression to apply on a security or a market index aiming to obtain an indication of emotion of investors at the current price by using Python
 
 #**Dependency**
 
@@ -19,4 +20,4 @@ Please use pip to install below libraries into the environment before execution 
 
 #**Version history**
 
-Version 1 (Feb 1, 2021) - Support command line execution.  Visualize Tseung's tunnel by displaying regression line, logarithm, 95%, 75%, 25%, and 5% lines.
+Version 1 (Feb 1, 2021) - Support command line execution.  Visualize Tseung's tunnel by displaying regression line, logarithm, 95%, 75%, 25%, and 5% lines.  Statis data set in CSV format
